@@ -54,6 +54,8 @@ ch2jp="5"
 # Number of Channel Specific Args
 ChSpecArgs="4"
 
+# ...
+
 python3 save_data.py "$ChSpecArgs" "$ch1SiPMNum" "$ch1jp" "$ch2SiPMNum" "$ch2jp" BV "$BV" "Number of Events" "$ne" Lcode "$Lcode" Date "$date" Extra "$EXTRA"
 
 echo "Ending time : "
